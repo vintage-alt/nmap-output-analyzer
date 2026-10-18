@@ -24,3 +24,6 @@ Install dependencies: pip install python-libnmap ollama pydantic
 Generate a scan: nmap -sV -oX scan.xml scanme.nmap.org
 Ensure Ollama is running and the model is pulled: ollama pull qwen2.5:7b-instruct
 Run the analyzer: python main.py scan.xml
+
+<img width="1343" height="421" alt="image" src="https://github.com/user-attachments/assets/711ad394-8c19-42f7-af64-2885e03b9b27" />
+
