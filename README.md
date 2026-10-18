@@ -18,6 +18,7 @@ Port 80 (http)
   Purpose: Web server for serving HTTP content.
   Risk: Vulnerabilities in the web application or Apache itself could be exploited.
   Suggestion: Check for known vulnerabilities in Apache version 2.4.7 (Ubuntu), ensure regular updates, and implement web application firewalling.
+```
 
 How to Run:
 Install dependencies: pip install python-libnmap ollama pydantic
